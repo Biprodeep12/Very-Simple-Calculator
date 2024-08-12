@@ -1,0 +1,353 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+}
+#BD {
+  background-color: rgb(220, 208, 208);
+  width: 270px;
+  height: 379px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px 3px grey;
+}
+#calcu {
+  background-color: rgb(155, 132, 132);
+  width: 250px;
+  height: 55px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+#searchinput {
+  outline: none;
+  background-color: rgb(155, 132, 132);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 0;
+  padding-left: 13px;
+  font-size: 20px;
+}
+#key {
+  width: 100%;
+  height: 79%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 12px;
+}
+#symb1 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb2 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 50px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb3 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 50px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb4 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+}
+#symb5 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb6 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb7 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb8 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 50px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb9 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb10 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb11 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb12 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 50px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb13 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb14 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb15 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  margin-right: 15px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb16 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb17 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 15px;
+}
+#symb18 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 15px;
+}
+#symb19 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 15px;
+}
+#symb20 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(181, 159, 120);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 1000;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#symb17:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb18:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb19:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb20:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb1:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb2:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb3:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb4:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb5:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb6:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb7:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb8:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb9:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb10:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb11:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb12:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb13:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb14:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb15:hover {
+  background-color: rgb(149, 142, 134);
+}
+#symb16:hover {
+  background-color: rgb(149, 142, 134);
+}
